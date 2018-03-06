@@ -1,0 +1,41 @@
+body, a,header{
+	color: #4389f9 ;
+}
+a.cart-info.empty{
+	color: #4389f9 ;
+}
+a{
+	color: #4389f9  !important ;  
+	
+}
+
+.header-top{
+	text-align: right !important;
+}
+
+ h1{
+ 	color: black !important;
+ }
+.text{
+	color: black !important;
+}
+
+a:hover{
+
+	color: #f4bd18  !important; 
+	
+}
+
+#keywords{
+     margin-right: 100px !important: 
+     margin-top: 100px !important;
+	 align: left !important;
+}
+#products .product-list-item {
+	
+
+	box-shadow: 0 0 5px 0 #4389f9 !important;
+}
+#product-images{
+	box-shadow: 1px 1px 3px 3px #4389f9 !important;
+}
