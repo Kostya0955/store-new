@@ -58,3 +58,8 @@ gem 'spree_gateway', '~> 3.3'
 gem 'vinsol_spree_themes', github: 'vinsol-spree-contrib/spree_themes', branch: 'master'
 gem 'sprockets-helpers', '~> 1.2.1'
 gem 'spree_i18n', github: 'spree-contrib/spree_i18n', branch: 'master'
+gem 'spree_globalize', github: 'spree-contrib/spree_globalize', branch: 'master'
+group :production do 
+ gem 'pg'
+end
+
