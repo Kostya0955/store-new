@@ -9,3 +9,17 @@
 #
 # In order to initialize a setting do:
 # config.setting_name = 'new value'
+Spree.config do |config|
+  # Example:
+  # Uncomment to stop tracking inventory levels in the application
+  # config.track_inventory_levels = false
+ # config.logo = "logo.png"
+ 
+  config.currency = 'RUB'
+  country = Spree::Country.find_by_name('Russian Federation')
+  config.default_country_id = country.id if country.present?
+
+
+end
+
+Spree.user_class = "Spree::LegacyUser"
