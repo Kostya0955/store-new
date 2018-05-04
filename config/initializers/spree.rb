@@ -17,7 +17,8 @@ Spree.config do |config|
  
   config.currency = 'RUB'
   country = Spree::Country.find_by_name('Russian Federation')
-  config.default_country_id = country.id if country.present?
+  #config.default_country_id = country.id if country.present?
+  config.default_country_id = 157;
 
 end
 
