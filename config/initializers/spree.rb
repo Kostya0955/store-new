@@ -9,3 +9,7 @@
 #
 # In order to initialize a setting do:
 # config.setting_name = 'new value'
+Spree.config do |config|
+  # Sets default country to Mexico
+  config.default_country_id = 157
+end
